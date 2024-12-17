@@ -2,6 +2,7 @@ package lieux;
 
 import java.util.List;
 import java.util.ArrayList;
+import java.sql.*;
 
 public enum Region {
 Guadeloupe(new Ville("Basse-Terre","97100",9779,848,"Canton de Basse-Terre"),1628,378561,List.of("Guadeloupe")), 
@@ -10,7 +11,7 @@ Guyane(new Ville ("Cayenne","97300",125552,23.6,"Guyane"),83534,295385,List.of("
 LaReunion(new Ville("Saint-Denis","97400",189109,142.79,"La Réunion"),2504,885700,List.of("La Réunion")), 
 Mayotte(new Ville("Mamoudzou","97600",103593,42.3,"Mayotte"),374,320901,List.of("Mayotte")),
 IledeFrance(new Ville("Paris","75000",2133111,105.40,"Paris"),12012,12419961,List.of("Paris","Seine-et-Marne", "Yvelines", "Essonne", "Hauts-de-Seine", "Seine-Saint-Denis", "Val-de-Marne", "Val-d'Oise")), 
-CentreValdeLoire(new Ville("")), 
+CentreValdeLoire(new Ville("")),
 BourgogneFrancheComte,
 Normandie,
 HautsdeFrance,
